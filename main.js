@@ -317,7 +317,7 @@ function renderBoard(game) {
             new Audio("./media/loss.mp3").play();
         } else {
             document.querySelector("#overlay").innerHTML = "You Won in " + time +" Seconds!"
-            new Audio("./media/win.mp3").play();
+            new Audio("./media/Win.mp3").play();
         }
         document.querySelector("#overlay").classList.add("active");
     }
