@@ -7,15 +7,10 @@ body {
     background: rgb(197, 235, 204);
 }
 
-.grid {
-}
 
 .grid-easy {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    /*grid-auto-columns: auto;*/
-    /*border-radius: 10px;*/
-    /*padding: 5px;*/
     width: calc(70vh);
 }
 
@@ -110,5 +105,3 @@ body {
     text-align: center;
     font-size: 1em;
   }
-  
-
