@@ -1,1 +1,25 @@
-helloworld
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Ben's MineSweeper</title>
+    </head>
+    <body>
+        <div class="difficultyMenu">
+            <div class="difficultyButton" data-size="16x16x40"> Normal</div>
+            <div class="difficultyButton" data-size="10x10x10">Easy</div>
+            <div class="flagCounter"></div>
+            <div class="gameTimer">Timer: 0</div>
+        </div>
+        <div class="gridwrapper" oncontextmenu="return false;">
+            <div class="grid grid-easy"></div>
+        </div>
+        <div id="overlay">
+            
+        </div>
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="main.js" language="JavaScript"></script>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </body>
+</html>
